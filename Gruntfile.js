@@ -109,18 +109,6 @@ module.exports = function(grunt) {
       rebuild: false,
     },
 
-    asar: {
-      dist: {
-        cwd: 'build',
-        src: ['**/*', '!js/app.js'],
-        expand: true,
-        dest: 'bin/' + (
-          process.platform === 'darwin'
-            ? 'Electron.app/Contents/Resources/'
-            : 'resources/'
-        ) + 'app.asar'
-      },
-    },
 
     resources: {
       dist: {
