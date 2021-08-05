@@ -16,7 +16,7 @@
   </properties>
  </imagelayer>
  <objectgroup id="5" name="mainPlayer">
-  <object id="1" name="collision" x="60.2615" y="291.355" width="32" height="64">
+  <object id="1" name="mplayer-collided" x="60.2615" y="291.355" width="32" height="64">
    <properties>
     <property name="framewidth" type="int" value="64"/>
     <property name="image" value="gripe_run_right"/>
@@ -29,6 +29,6 @@
   </data>
  </layer>
  <objectgroup id="6" name="collision" offsetx="-3.54116" offsety="3.54116">
-  <object id="2" name="collision" x="58.138" y="287.584" width="42.1997" height="64"/>
+  <object id="2" name="mplayer-collided" x="58.138" y="287.584" width="42.1997" height="64"/>
  </objectgroup>
 </map>
