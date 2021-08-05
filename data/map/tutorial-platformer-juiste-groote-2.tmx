@@ -18,8 +18,8 @@
  <objectgroup id="6" name="collision" offsetx="-3.54116" offsety="3.54116">
   <object id="2" x="61.888" y="284.084" width="42.1997" height="64"/>
  </objectgroup>
- <objectgroup id="5" name="mainPlayer">
-  <object id="1" name="mainplayer" x="64.2615" y="287.605" width="32" height="64">
+ <objectgroup id="5" name="mainplayer-laag">
+  <object id="1" name="mainPlayer" x="64.2615" y="287.605" width="32" height="64">
    <properties>
     <property name="framewidth" type="int" value="64"/>
     <property name="image" value="gripe_run_right"/>
